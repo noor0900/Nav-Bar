@@ -42,28 +42,25 @@ ul li a{
 .footer{
     background-color: blueviolet;
     text-align: center;
+    width: 100%;
 }
 h1{
     text-align: center;
 }
-p{
-    background-color: darkgreen;
-    font-size: 35px;
-    color: darksalmon;
-
-}
 form{
-    background-color: rgba(0, 0, 255, 0.247);
-    margin-top: 3%;
+    background-color: rgba(32, 13, 17, 0.671);
+    margin-top: 2%;
     margin-left: 30%;
-    border: 2px solid rgba(255, 0, 0, 0.336);
-    max-width: 500px;
-    padding: 3%;
+    max-width: 550px;
+    border: 2px solid black;
+    padding: 30px;
+
 }
 label{
     display: block;
     font-size: 40px;
     margin-top: 20px;
+    
 }
 input{
     width: 100%;
@@ -71,16 +68,16 @@ input{
     margin-top: 3%;
     border: double;
     font-size: 20px;
-    background-color: rgba(165, 42, 42, 0.281);
+    background-color: rgba(42, 159, 180, 0.158);
 }
 input[type="submit"]:hover{
-    background-color: rgba(137, 43, 226, 0.404);
+    background-color: rgba(21, 158, 39, 0.404);
 }
 input[type="submit"]{
 
-        background-color: red;
-        color: blanchedalmond;
-        padding: 12px;
+        background-color: rgba(25, 0, 255, 0.548);
+        color: rgba(230, 223, 213, 0.397);
+        padding: 20px;
         border: 2px solid black;
         cursor: pointer;
         font-size: 15px;
@@ -89,11 +86,25 @@ input[type="submit"]{
 }
 h1{
     font-size: 40px;
-    font-family: cursive;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: darkgreen;
-    padding: 3%;
+    
 }
 .logo {
     color: dimgrey;
 }
-
+option{
+    font-size: 20px;
+    color: chartreuse;
+    background-color: darkslateblue;
+    font-family: sans-serif;
+    padding: 2px;
+}
+select{
+    color: rgba(19, 223, 162, 0.541);
+    padding: 2px;
+    border: dotted;
+    background-color: rgba(187, 146, 42, 0.473);
+    cursor: pointer;
+    font-size: 20px;
+}
